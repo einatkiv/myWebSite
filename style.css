@@ -1,0 +1,38 @@
+#menu
+{
+	position: fixed;
+	width: 100%;
+	height: 35px;
+	background: white;
+}
+
+#about{
+	font-size: x-large;
+	font-style: italic;
+	font-weight: bold;
+	color: purple
+}
+
+#photos{
+	
+}
+#playlist{
+
+}
+#like:hover{
+	color: purple
+	
+}
+#qrcoder{
+	
+}
+#spa{
+	
+}
+#contact{
+	
+}
+
+body{
+	background-image:url("3012-8.jpg")
+}
