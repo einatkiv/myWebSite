@@ -2,37 +2,64 @@
 {
 	position: fixed;
 	width: 100%;
-	height: 35px;
-	background: white;
+	height: 30px;
+	text-align: center;
+	display: inline;
+	
+	
+}
+a{text-decoration-line: none; font-size: 180%; text-align: center; color:rgb(18, 3, 61) }
+
+#likeIframe{
+	size: 200%
 }
 
-#about{
-	font-size: x-large;
-	font-style: italic;
+#massageBox{
+	width: 80%;
+}
+
+#logo{
+	border-radius: 50%;
+}
+.titlePhoto{
+	border-radius: 50%; 
+}
+.titlePhoto:hover{
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+
+.title{
+	font-size: 150%;
+	color:rgb(18, 3, 61);
+	text-align: center
+}
+.sec{
+	text-align: center
+}
+.lable{
+	color:rgb(18, 3, 61) 
+}
+.menuLine:hover{
 	font-weight: bold;
-	color: purple
+	color:rgb(18, 3, 61)
 }
-
-#photos{
-	
+.photo{
+	border-radius: 15%;
 }
-#playlist{
-
+.photo:hover{
+	-webkit-animation: photoSpin 2s 1
 }
-#like:hover{
-	color: purple
-	
-}
-#qrcoder{
-	
-}
-#spa{
-	
-}
-#contact{
-	
-}
-
 body{
-	background-image:url("3012-8.jpg")
+	background: linear-gradient(to right,white,LightSkyBlue, rgb(5, 90, 143),DodgerBlue,rgb(5, 90, 143),LightSkyBlue,white);
+	font-family: comic sans ms
+
+}
+@-webkit-keyframes photoSpin {
+	0%{
+		-webkit-transform: rotateY(0)
+	}
+	100%{
+		-webkit-transform: rotateY(360deg)
+	}
 }
