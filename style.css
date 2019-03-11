@@ -50,6 +50,12 @@ a{text-decoration-line: none; font-size: 180%; text-align: center; color:rgb(18,
 .photo:hover{
 	-webkit-animation: photoSpin 2s 1
 }
+.titleAns{
+	font-weight: bold;
+	font-size: 120%;
+	text-decoration-line: underline
+
+}
 body{
 	background: linear-gradient(to right,white,LightSkyBlue, rgb(5, 90, 143),DodgerBlue,rgb(5, 90, 143),LightSkyBlue,white);
 	font-family: comic sans ms
